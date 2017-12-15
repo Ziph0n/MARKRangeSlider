@@ -131,8 +131,8 @@ static NSString * const kMARKRangeSliderTrackRangeImage = @"rangeSliderTrackRang
         rightAvailableWidth -= rightThumbImageSize.width;
     }
 
-    CGFloat leftInset = leftThumbImageSize.width / 2;
-    CGFloat rightInset = rightThumbImageSize.width / 2;
+    CGFloat leftInset = leftThumbImageSize.width / 3;
+    CGFloat rightInset = rightThumbImageSize.width / 1.7;
 
     CGFloat trackRange = self.maximumValue - self.minimumValue;
 
